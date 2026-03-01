@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin:0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(modern-minimalist-web-development-workspace-with-laptop-coffee_1355276-9369.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+.ha{
+    display: flex;
+list-style: none;
+ gap: 2em; 
+}
+a{
+    text-decoration: none;
+  color:#FFFFFF;
+}
+nav {
+  height: 50px;
+}
+
+nav a {
+  font-size: 22px;
+}
+a:hover{
+    color: aqua;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+.home{
+  height:90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+.home-img img{
+  width: 250px;
+  height: 250px;
+  border-radius:50%;
+}
+.home-text h1{
+  font-size:40;
+  color: aliceblue;
+}
+.home-text h3{
+  color:aqua;
+  margin:10px 0 ;
+}
+.home-text p{
+  margin-bottom:20px;
+  font-weight:bold;
+  color: #FFFFFF;
+}
+.home-text button {
+  padding: 10px 20px;
+  border: none;
+  background: #2ee0ec;
+  cursor: pointer;
+}
+.home-text button:hover{
+  background-color: #207379;
+} 
